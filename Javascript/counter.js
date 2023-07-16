@@ -14,6 +14,9 @@ function animateCounter(counterId, initialValue, targetValue) {
       clearInterval(interval);
     } else {
       initialValue += increment;
+      if (initialValue > targetValue) {
+        initialValue = targetValue; // Ensure the counter does not exceed the target value
+      }
       counterElement.textContent = initialValue;
     }
   }, 20);
@@ -36,4 +39,5 @@ function checkVisibility() {
     window.removeEventListener("scroll", checkVisibility);
   }
 }
+
 window.addEventListener("scroll", checkVisibility);
