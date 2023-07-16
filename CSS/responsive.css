@@ -14,8 +14,8 @@
     margin-top: 70% !important;
   }
   #sub-btn {
-    font-size: smaller;
-    font-weight: 600;
+    font-size: smaller !important;
+    font-weight: 600 !important;
   }
   .footer-nav-item {
     font-size: 6px !important;
