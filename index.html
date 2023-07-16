@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!--  -->
+    <title>DataHub-Tech-Assignment</title>
+  </head>
+
+  <body>
+    <!-- Logo -->
+    <div
+      class="container-fluid d-flex justify-content-center align-content-center"
+    >
+      <div class="logo p-3 pb-2 pt-2 mt-3">LOGO 1</div>
+    </div>
+    <div class="container">
+      <hr />
+    </div>
+
+    <!-- logo ends here -->
+
+    <!-- Navbar start here -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid navbar-container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item px-2">
+              <a class="nav-link active" href="#" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Accessories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">
+                Cart
+                <ion-icon name="cart-outline"></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#"
+                >Search
+                <ion-icon name="search-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar ends here -->
+
+    <!-- carousal section start here -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="car-bgd">
+        <div class="carousel-item active car-bg">
+          <div class="container">
+            <div class="row">
+              <center>
+                <div class="col-9">
+                  <div class="row">
+                    <div class="col-3 mt-5 mb-5 sm-mt-2 sm-mb-2">
+                      <img
+                        src="./Assets/product_single_1.png"
+                        alt=""
+                        class="img-fluid product-img"
+                      />
+                    </div>
+                    <div class="col-6 mt-5 mb-5">
+                      <center>
+                        <h3
+                          class="title d-flex justify-content-center align-content-center mb-3"
+                        >
+                          POWER WASH <br />
+                          VACCUM <br />
+                          CLEANERS
+                        </h3>
+                        <p class="title-discp mb-4">
+                          BEST SERIES AT BEST PRICE
+                        </p>
+                        <div
+                          class="btn btn-danger"
+                          id="shopping-btn"
+                          onclick="shopClickFunction()"
+                        >
+                          Shop Now
+                        </div>
+                      </center>
+                    </div>
+                    <div class="col-3 mb-5 mt-5">
+                      <img
+                        src="./Assets/product_single_2.png"
+                        alt=""
+                        class="img-fluid product-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item car-bg">
+          <div class="container">
+            <div class="row">
+              <center>
+                <div class="col-9">
+                  <div class="row">
+                    <div class="col-3 mt-5 mb-5 sm-mt-2 sm-mb-2">
+                      <img
+                        src="./Assets/product_single_1.png"
+                        alt=""
+                        class="img-fluid product-img"
+                      />
+                    </div>
+                    <div class="col-6 mt-5 mb-5">
+                      <center>
+                        <h3
+                          class="title d-flex justify-content-center align-content-center mb-3"
+                        >
+                          POWER WASH <br />
+                          VACCUM <br />
+                          CLEANERS
+                        </h3>
+                        <p class="title-discp mb-4">
+                          BEST SERIES AT BEST PRICE
+                        </p>
+                        <div
+                          class="btn btn-danger"
+                          id="shopping-btn"
+                          onclick="shopClickFunction()"
+                        >
+                          Shop Now
+                        </div>
+                      </center>
+                    </div>
+                    <div class="col-3 mb-5 mt-5">
+                      <img
+                        src="./Assets/product_single_2.png"
+                        alt=""
+                        class="img-fluid product-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item car-bg">
+          <div class="container">
+            <div class="row">
+              <center>
+                <div class="col-9">
+                  <div class="row">
+                    <div class="col-3 mt-5 mb-5 sm-mt-2 sm-mb-2">
+                      <img
+                        src="./Assets/product_single_1.png"
+                        alt=""
+                        class="img-fluid product-img"
+                      />
+                    </div>
+                    <div class="col-6 mt-5 mb-5">
+                      <center>
+                        <h3
+                          class="title d-flex justify-content-center align-content-center mb-3"
+                        >
+                          POWER WASH <br />
+                          VACCUM <br />
+                          CLEANERS
+                        </h3>
+                        <p class="title-discp mb-4">
+                          BEST SERIES AT BEST PRICE
+                        </p>
+                        <div
+                          class="btn btn-danger"
+                          id="shopping-btn"
+                          onclick="shopClickFunction()"
+                        >
+                          Shop Now
+                        </div>
+                      </center>
+                    </div>
+                    <div class="col-3 mb-5 mt-5">
+                      <img
+                        src="./Assets/product_single_2.png"
+                        alt=""
+                        class="img-fluid product-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bg-light"
+          aria-hidden="true"
+        ></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+      <div
+        class="carousel-button-container d-flex justify-content-center align-items-center mt-3"
+      >
+        <div
+          class="carousel-button active"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+        ></div>
+        <div
+          class="carousel-button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+        ></div>
+        <div
+          class="carousel-button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+        ></div>
+      </div>
+    </div>
+
+    <!-- carousal section ends here -->
+
+    <!-- our products start here -->
+    <div class="container-fluid pr-5 pl-5 pb-5" id="product-cr">
+      <div class="container">
+        <h5 class="text-center mt-3 mb-4 text-uppercase">Our products</h5>
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div class="row g-5">
+                <div class="col-12">
+                  <div class="image-container">
+                    <img
+                      src="./Assets/2.jpg"
+                      alt=""
+                      srcset=""
+                      class="img-fluid block-img"
+                      id="block-img-1"
+                    />
+                    <div class="centered-text">
+                      <span class="main-text">VACCUM CLEANER</span>
+                      <br />
+                      <span class="sub-text"
+                        >Lorem Ipsum, Dolor Sit Amet Consectetur</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="image-container">
+                    <img
+                      src="./Assets/1.jpg"
+                      alt=""
+                      srcset=""
+                      class="img-fluid block-img"
+                      id="block-img-1"
+                    />
+                    <div class="centered-text">
+                      <span class="main-text">PRESSURE WASHER</span>
+                      <br />
+                      <span class="sub-text"
+                        >Lorem Ipsum, Dolor Sit Amet Consectetur</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div class="image-container">
+                <img
+                  src="./Assets/3.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid block-img"
+                  id="block-img-1"
+                />
+                <div class="acc-text">
+                  <span class="main-text">ACCESSORIES</span>
+                  <br />
+                  <span class="sub-text"
+                    >Lorem Ipsum, Dolor Sit Amet Consectetur</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our products ends here -->
+
+    <!-- why we are the best start here -->
+    <div class="container-fluid p-5">
+      <h5 class="text-center text-uppercase mb-3">why we are the best</h5>
+
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <img
+              src="./Assets/quality_1.jpg"
+              alt=""
+              class="img-fluid qaulity mb-2"
+            />
+            <h6 class="quality-hd">dedicated help desk</h6>
+            <p class="quality-text p-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              excepturi
+            </p>
+          </center>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <img
+              src="./Assets/quality_2.jpg"
+              alt=""
+              class="img-fluid qaulity mb-2"
+            />
+
+            <h6 class="quality-hd">international delivery</h6>
+            <p class="quality-text p-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              excepturi
+            </p>
+          </center>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <img
+              src="./Assets/quality_3.jpg"
+              alt=""
+              class="img-fluid qaulity mb-2"
+            />
+            <h6 class="quality-hd">secure payment</h6>
+            <p class="quality-text p-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              excepturi
+            </p>
+          </center>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <img
+              src="./Assets/quality_4.jpg"
+              alt=""
+              srcset=""
+              class="img-fluid qaulity mb-2"
+            />
+            <h6 class="quality-hd">value for money</h6>
+            <p class="quality-text p-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              excepturi
+            </p>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!-- why we are the best start here -->
+
+    <!-- upcoming product start here -->
+    <div class="container-fluid p-5" style="background-color: #f9f9f9">
+      <h4 class="text-center text-uppercase">upcoming product</h4>
+
+      <center>
+        <img src="./Assets/play-button.png" alt="" srcset="" class="play-btn" />
+      </center>
+    </div>
+
+    <!-- upcoming product ends here -->
+
+    <!-- map section start here -->
+    <div class="container-fluid">
+      <h4 class="text-center text-uppercase heading p-5">our product reach</h4>
+      <section style="background-color: #f9f9f9" class="">
+        <img src="./Assets/map.png" alt="" class="img-fluid" />
+      </section>
+    </div>
+    <!-- map section ends here -->
+
+    <!-- counting section start here -->
+    <div class="container-fluid p-5" id="counter-section">
+      <div class="row">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <div class="counter mb-2" id="counter1">0</div>
+            <h6 class="quality-hd" id="product_count">product count</h6>
+          </center>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <div class="counter mb-2" id="counter2">0</div>
+            <h6 class="quality-hd">activate clients</h6>
+          </center>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <div class="counter mb-2" id="counter3">0</div>
+            <h6 class="quality-hd">total deliveries</h6>
+          </center>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2">
+          <center>
+            <div class="counter mb-2" id="counter4">0</div>
+            <h6 class="quality-hd">shipping countries</h6>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!-- counting section ends here -->
+
+    <!-- footer section  start here-->
+    <div
+      class="footer-end p-5"
+      style="background-color: #f9f9f9; margin-bottom: 0% !important"
+      id="footer-end"
+    >
+      <h6 class="text-center text-uppercase" id="news-letter">
+        subscribe to newsletter
+      </h6>
+      <p class="footer-disc">
+        Lorem ipsum dolor sit amet consectetur adipisicing<br />
+        Nulla voluptate aliquid tenetur, autem sunt exceptobcaecati
+      </p>
+
+      <div class="row">
+        <center>
+          <div class="col-10 col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-6">
+            <form action="" class="d-flex">
+              <input
+                type="text"
+                class="form-control text-uppercase"
+                id="email-input"
+                placeholder="enter your email"
+              />
+              <div
+                class="btn btn-danger text-uppercase fw-normal"
+                id="sub-btn"
+                onclick="clickFunction()"
+              >
+                Subscribe
+              </div>
+            </form>
+          </div>
+        </center>
+      </div>
+
+      <div class="icons d-flex justify-content-center align-content-center">
+        <ion-icon name="logo-facebook" class="social-icon p-2"></ion-icon>
+        <ion-icon name="logo-instagram" class="social-icon p-2"></ion-icon>
+        <ion-icon name="logo-twitter" class="social-icon p-2"></ion-icon>
+        <ion-icon name="logo-pinterest" class="social-icon p-2"></ion-icon>
+      </div>
+      <div
+        class="footer-nav d-flex justify-content-center align-content-center"
+      >
+        <a href="#" class="footer-nav-item text-uppercase p-2">enquiry</a>
+        <a href="#" class="footer-nav-item text-uppercase p-2"
+          >privacy & policy</a
+        >
+        <a href="#" class="footer-nav-item text-uppercase p-2"
+          >terms & conditions</a
+        >
+        <a href="#" class="footer-nav-item text-uppercase p-2">downloads</a>
+      </div>
+      <small class="cpname d-flex justify-content-center align-content-center"
+        >Copyright&copy;2021,Designed & Developed by
+        <span>&nbsp;Datahub Technologies</span></small
+      >
+    </div>
+    <!-- footer section  ends here-->
+
+    <!-- to top btn start here -->
+    <button id="back-to-top-btn" class="back-to-top-btn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- to top btn ends here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./Javascript/carouselbtn.js"></script>
+    <script src="./Javascript/counter.js"></script>
+    <script src="./Javascript/index.js"></script>
+    <script src="./Javascript/totopbtn.js"></script>
+  </body>
+</html>
