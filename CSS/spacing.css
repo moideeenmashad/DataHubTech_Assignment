@@ -1,8 +1,18 @@
 .container-fluid {
   margin-bottom: 20px !important;
   width: 100%;
+  /* border:  5px solid rgb(0, 255, 123); */
 }
 
 .footer-end {
   margin-bottom: 0% !important;
 }
+
+#myCarousel{
+  /* border: 5px solid red; */
+  margin-bottom: 20px !important;
+}
+
+/* .container-hr {
+  border: 5px solid red;
+} */

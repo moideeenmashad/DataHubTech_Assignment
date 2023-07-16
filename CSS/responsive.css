@@ -52,6 +52,9 @@
   .footer-nav-item {
     font-size: 5px;
   }
+  #sub-btn {
+    font-size: xx-small !important;
+  }
 }
 
 /* --------------------------------------------------------For lap pc  Resolution-------------------------------------------------------------- */
