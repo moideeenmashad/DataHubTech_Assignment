@@ -1,0 +1,40 @@
+.footer-disc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-small;
+  text-align: center;
+}
+
+#news-letter {
+  font-size: smaller;
+}
+
+#sub-btn {
+  border-radius: 0rem 0.5rem 0.5rem 0rem !important;
+  font-size: xx-small;
+  font-weight: 500 !important;
+}
+#email-input {
+  border-radius: 0rem;
+  font-size: xx-small;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  transition: 900ms;
+}
+.social-icon:not(:hover) {
+  transition: 900ms;
+}
+.footer-nav-item {
+  font-size: xx-small;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cpname {
+  font-size: x-small;
+}
+
+/* ------------------------------------------------------------------footer section ends here--------------------------------------------------- */

@@ -1,0 +1,31 @@
+/* ------------------------------------------------------our product ends here -------------------------------------------------------*/
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.centered-text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.main-text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sub-text {
+  color: white;
+  font-size: x-small;
+  padding-top: 50px;
+  line-height: 1.2;
+  position: relative;
+}
+.acc-text {
+  position: absolute;
+  top: 2.5%;
+  left: 5%;
+}
